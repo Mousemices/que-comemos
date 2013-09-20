@@ -1,0 +1,33 @@
+.mln {margin-left: 0 !important;}
+.navbar-inner {padding: 0; background-color: #fbc607; background-image: linear-gradient(to bottom, #fbc607, #f90); background: -webkit-linear-gradient(bottom, rgb(251,198,7) 0%, rgb(255,153,0) 100%); background-image: -ms-linear-gradient(bottom, rgb(251,198,7) 0%, rgb(255,153,0) 100%);}
+.navbar .nav > li > a {color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,.3);}
+.navbar .nav > li > a:hover {opacity: .9; color:#fff;}
+.navbar .nav > li > a:focus, .navbar .nav > li > a:active {opacity: .75; color:#fff;}
+.container-fluid {padding-bottom: 25px;}
+.addRecipeBt {position: absolute; bottom: 10px; left: 50%; width: 200px; margin-left: -100px; font-size: 14px; box-shadow: 0 0 7px rgba(0,0,0, .85);}
+.mainButton {text-align: center; margin: 0 auto 25px;}
+.mainButton button {font-size: 30px; padding: 1em 2em;}
+.tableResults > table {margin: 25px auto; display: none; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); margin: 0 auto 25px;}
+.tableWeekPlan > table {margin: 25px auto; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);}
+.tableResults > table td a, .tableWeekPlan > table td a {color: #fff; text-decoration: none; display: block;}
+.tableResults > table td a {color:#000;}
+.tableResults > table td a:hover, .tableWeekPlan > table td a:hover {text-decoration: underline;}
+.tableResults > table .weekend {background-color:#F2DEDE;}
+.tableResults > table th, .tableResults > table td {background-color: #fff; opacity: .8;}
+.tableWeekPlan > table th, .tableWeekPlan > table td {background-color: #000; color:#fff; opacity: .8;}
+.captureButton {text-align: center; margin-left: 0 !important; display: none;}
+.tableWeekPlan h1 {color: #fff; text-align: center; margin: 0 0 25px; text-shadow: 0 0 3px rgba(0,0,0, .85);}
+footer.footer {text-align: center; padding: 10px 0; background: #fff; border-top: 1px solid #ccc; opacity: .9; font-size: 12px; position: fixed; bottom: 0; left: 0; width: 100%;}
+footer.footer p {margin: 0;}
+
+@media all and (max-width: 1000px) and (min-width: 300px) {
+  
+  body {padding: 0 10px;}
+  .navbar-inner {font-size: 11px;}
+  .tableWeekPlan h1 {font-size: 16px; margin: 0 0 15px;}
+  .tableResults > table, .tableWeekPlan > table {font-size: 10px; width: 95%;}
+  .tableResults > table th, .tableResults > table td, .tableWeekPlan > table th, .tableWeekPlan > table td {padding: 4px;}
+  .mainButton button {font-size: 16px; }
+  footer.footer {position: static; bottom: auto; left:auto;}
+  
+}
