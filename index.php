@@ -223,7 +223,7 @@ if(isset($_POST['username'])) {
 </div><!--container-fluid-->
 
 <footer class="footer">
-	<p><a href="http:www.albertofortes.com" title="Programador front end JavaScript, HTML 5, CSS 3">Alberto Fortes</a>, 2013</p>
+	<p><a href="http://www.albertofortes.com" title="Programador front end JavaScript, HTML 5, CSS 3">Alberto Fortes</a>, 2013</p>
 	<p>Qué comemos está hecho con Bootstrap 2 from Twitter, jQuery, AngularJS y PHP 5. Puedes descargarlo desde <a href="https://github.com/albertofortes/que-comemos" title="Proyectos de Alberto Fortes en Github">Github.</p>
 </footer>
 
